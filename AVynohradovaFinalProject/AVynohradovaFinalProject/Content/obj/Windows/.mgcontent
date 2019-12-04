@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SourceFileCollection xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Profile>Reach</Profile>
+  <Platform>Windows</Platform>
+  <Config />
+  <SourceFiles>
+    <File>C:/Users/dell/Desktop/Conestoga/Game Prog/Final Project/AVynohradova_Game/AVynohradovaFinalProject/AVynohradovaFinalProject/Content/pattern.png</File>
+    <File>C:/Users/dell/Desktop/Conestoga/Game Prog/Final Project/AVynohradova_GameMS2/AVynohradovaFinalProject/AVynohradovaFinalProject/Content/background.jpg</File>
+    <File>C:/Users/dell/Desktop/Conestoga/Game Prog/Final Project/AVynohradova_GameMS2/AVynohradovaFinalProject/AVynohradovaFinalProject/Content/boat.png</File>
+    <File>C:/Users/dell/Desktop/Conestoga/Game Prog/Final Project/AVynohradova_GameMS2/AVynohradovaFinalProject/AVynohradovaFinalProject/Content/credit.jpg</File>
+    <File>C:/Users/dell/Desktop/Conestoga/Game Prog/Final Project/AVynohradova_GameMS2/AVynohradovaFinalProject/AVynohradovaFinalProject/Content/creditFont.spritefont</File>
+    <File>C:/Users/dell/Desktop/Conestoga/Game Prog/Final Project/AVynohradova_GameMS2/AVynohradovaFinalProject/AVynohradovaFinalProject/Content/help.png</File>
+    <File>C:/Users/dell/Desktop/Conestoga/Game Prog/Final Project/AVynohradova_GameMS2/AVynohradovaFinalProject/AVynohradovaFinalProject/Content/highlightFont.spritefont</File>
+    <File>C:/Users/dell/Desktop/Conestoga/Game Prog/Final Project/AVynohradova_GameMS2/AVynohradovaFinalProject/AVynohradovaFinalProject/Content/light.png</File>
+    <File>C:/Users/dell/Desktop/Conestoga/Game Prog/Final Project/AVynohradova_GameMS2/AVynohradovaFinalProject/AVynohradovaFinalProject/Content/light2.png</File>
+    <File>C:/Users/dell/Desktop/Conestoga/Game Prog/Final Project/AVynohradova_GameMS2/AVynohradovaFinalProject/AVynohradovaFinalProject/Content/main.jpg</File>
+    <File>C:/Users/dell/Desktop/Conestoga/Game Prog/Final Project/AVynohradova_GameMS2/AVynohradovaFinalProject/AVynohradovaFinalProject/Content/regularFont.spritefont</File>
+    <File>C:/Users/dell/Desktop/Conestoga/Game Prog/Final Project/AVynohradova_GameMS2/AVynohradovaFinalProject/AVynohradovaFinalProject/Content/song.mp3</File>
+    <File>C:/Users/dell/Desktop/Conestoga/Game Prog/Final Project/AVynohradova_GameMS2/AVynohradovaFinalProject/AVynohradovaFinalProject/Content/textura.jpeg</File>
+  </SourceFiles>
+  <DestFiles>
+    <File xsi:nil="true" />
+  </DestFiles>
+</SourceFileCollection>

@@ -1,0 +1,130 @@
+C:\Users\dell\Desktop\AVynohradovaFinalProject\AVynohradovaFinalProject\bin\Windows\x86\Debug\Content\boat.xnb
+C:\Users\dell\Desktop\AVynohradovaFinalProject\AVynohradovaFinalProject\bin\Windows\x86\Debug\AVynohradovaFinalProject.exe
+C:\Users\dell\Desktop\AVynohradovaFinalProject\AVynohradovaFinalProject\bin\Windows\x86\Debug\AVynohradovaFinalProject.pdb
+C:\Users\dell\Desktop\AVynohradovaFinalProject\AVynohradovaFinalProject\bin\Windows\x86\Debug\MonoGame.Framework.dll
+C:\Users\dell\Desktop\AVynohradovaFinalProject\AVynohradovaFinalProject\bin\Windows\x86\Debug\SharpDX.MediaFoundation.dll
+C:\Users\dell\Desktop\AVynohradovaFinalProject\AVynohradovaFinalProject\bin\Windows\x86\Debug\SharpDX.dll
+C:\Users\dell\Desktop\AVynohradovaFinalProject\AVynohradovaFinalProject\bin\Windows\x86\Debug\SharpDX.XAudio2.dll
+C:\Users\dell\Desktop\AVynohradovaFinalProject\AVynohradovaFinalProject\bin\Windows\x86\Debug\SharpDX.DXGI.dll
+C:\Users\dell\Desktop\AVynohradovaFinalProject\AVynohradovaFinalProject\bin\Windows\x86\Debug\SharpDX.Direct3D11.dll
+C:\Users\dell\Desktop\AVynohradovaFinalProject\AVynohradovaFinalProject\bin\Windows\x86\Debug\SharpDX.Direct2D1.dll
+C:\Users\dell\Desktop\AVynohradovaFinalProject\AVynohradovaFinalProject\bin\Windows\x86\Debug\SharpDX.XInput.dll
+C:\Users\dell\Desktop\AVynohradovaFinalProject\AVynohradovaFinalProject\bin\Windows\x86\Debug\MonoGame.Framework.xml
+C:\Users\dell\Desktop\AVynohradovaFinalProject\AVynohradovaFinalProject\bin\Windows\x86\Debug\SharpDX.MediaFoundation.xml
+C:\Users\dell\Desktop\AVynohradovaFinalProject\AVynohradovaFinalProject\bin\Windows\x86\Debug\SharpDX.xml
+C:\Users\dell\Desktop\AVynohradovaFinalProject\AVynohradovaFinalProject\bin\Windows\x86\Debug\SharpDX.XAudio2.xml
+C:\Users\dell\Desktop\AVynohradovaFinalProject\AVynohradovaFinalProject\bin\Windows\x86\Debug\SharpDX.DXGI.xml
+C:\Users\dell\Desktop\AVynohradovaFinalProject\AVynohradovaFinalProject\bin\Windows\x86\Debug\SharpDX.Direct3D11.xml
+C:\Users\dell\Desktop\AVynohradovaFinalProject\AVynohradovaFinalProject\bin\Windows\x86\Debug\SharpDX.Direct2D1.xml
+C:\Users\dell\Desktop\AVynohradovaFinalProject\AVynohradovaFinalProject\bin\Windows\x86\Debug\SharpDX.XInput.xml
+C:\Users\dell\Desktop\AVynohradovaFinalProject\AVynohradovaFinalProject\obj\x86\Debug\AVynohradovaFinalProject.csprojAssemblyReference.cache
+C:\Users\dell\Desktop\AVynohradovaFinalProject\AVynohradovaFinalProject\obj\x86\Debug\AVynohradovaFinalProject.csproj.CoreCompileInputs.cache
+C:\Users\dell\Desktop\AVynohradovaFinalProject\AVynohradovaFinalProject\obj\x86\Debug\AVynohradovaFinalProject.csproj.CopyComplete
+C:\Users\dell\Desktop\AVynohradovaFinalProject\AVynohradovaFinalProject\obj\x86\Debug\AVynohradovaFinalProject.exe
+C:\Users\dell\Desktop\AVynohradovaFinalProject\AVynohradovaFinalProject\obj\x86\Debug\AVynohradovaFinalProject.pdb
+C:\Users\dell\Desktop\AVynohradovaFinalProject\AVynohradovaFinalProject\bin\Windows\x86\Debug\Content\background.xnb
+C:\Users\dell\Desktop\AVynohradovaFinalProject\AVynohradovaFinalProject\bin\Windows\x86\Debug\Content\song.wma
+C:\Users\dell\Desktop\AVynohradovaFinalProject\AVynohradovaFinalProject\bin\Windows\x86\Debug\Content\song.xnb
+C:\Users\dell\Desktop\Conestoga\Game Prog\Final Project\AVynohradova_GameMS1\AVynohradovaFinalProject\AVynohradovaFinalProject\bin\Windows\x86\Debug\Content\background.xnb
+C:\Users\dell\Desktop\Conestoga\Game Prog\Final Project\AVynohradova_GameMS1\AVynohradovaFinalProject\AVynohradovaFinalProject\bin\Windows\x86\Debug\AVynohradovaFinalProject.exe
+C:\Users\dell\Desktop\Conestoga\Game Prog\Final Project\AVynohradova_GameMS1\AVynohradovaFinalProject\AVynohradovaFinalProject\bin\Windows\x86\Debug\AVynohradovaFinalProject.pdb
+C:\Users\dell\Desktop\Conestoga\Game Prog\Final Project\AVynohradova_GameMS1\AVynohradovaFinalProject\AVynohradovaFinalProject\bin\Windows\x86\Debug\MonoGame.Framework.dll
+C:\Users\dell\Desktop\Conestoga\Game Prog\Final Project\AVynohradova_GameMS1\AVynohradovaFinalProject\AVynohradovaFinalProject\bin\Windows\x86\Debug\SharpDX.MediaFoundation.dll
+C:\Users\dell\Desktop\Conestoga\Game Prog\Final Project\AVynohradova_GameMS1\AVynohradovaFinalProject\AVynohradovaFinalProject\bin\Windows\x86\Debug\SharpDX.dll
+C:\Users\dell\Desktop\Conestoga\Game Prog\Final Project\AVynohradova_GameMS1\AVynohradovaFinalProject\AVynohradovaFinalProject\bin\Windows\x86\Debug\SharpDX.XAudio2.dll
+C:\Users\dell\Desktop\Conestoga\Game Prog\Final Project\AVynohradova_GameMS1\AVynohradovaFinalProject\AVynohradovaFinalProject\bin\Windows\x86\Debug\SharpDX.DXGI.dll
+C:\Users\dell\Desktop\Conestoga\Game Prog\Final Project\AVynohradova_GameMS1\AVynohradovaFinalProject\AVynohradovaFinalProject\bin\Windows\x86\Debug\SharpDX.Direct3D11.dll
+C:\Users\dell\Desktop\Conestoga\Game Prog\Final Project\AVynohradova_GameMS1\AVynohradovaFinalProject\AVynohradovaFinalProject\bin\Windows\x86\Debug\SharpDX.Direct2D1.dll
+C:\Users\dell\Desktop\Conestoga\Game Prog\Final Project\AVynohradova_GameMS1\AVynohradovaFinalProject\AVynohradovaFinalProject\bin\Windows\x86\Debug\SharpDX.XInput.dll
+C:\Users\dell\Desktop\Conestoga\Game Prog\Final Project\AVynohradova_GameMS1\AVynohradovaFinalProject\AVynohradovaFinalProject\bin\Windows\x86\Debug\MonoGame.Framework.xml
+C:\Users\dell\Desktop\Conestoga\Game Prog\Final Project\AVynohradova_GameMS1\AVynohradovaFinalProject\AVynohradovaFinalProject\bin\Windows\x86\Debug\SharpDX.MediaFoundation.xml
+C:\Users\dell\Desktop\Conestoga\Game Prog\Final Project\AVynohradova_GameMS1\AVynohradovaFinalProject\AVynohradovaFinalProject\bin\Windows\x86\Debug\SharpDX.xml
+C:\Users\dell\Desktop\Conestoga\Game Prog\Final Project\AVynohradova_GameMS1\AVynohradovaFinalProject\AVynohradovaFinalProject\bin\Windows\x86\Debug\SharpDX.XAudio2.xml
+C:\Users\dell\Desktop\Conestoga\Game Prog\Final Project\AVynohradova_GameMS1\AVynohradovaFinalProject\AVynohradovaFinalProject\bin\Windows\x86\Debug\SharpDX.DXGI.xml
+C:\Users\dell\Desktop\Conestoga\Game Prog\Final Project\AVynohradova_GameMS1\AVynohradovaFinalProject\AVynohradovaFinalProject\bin\Windows\x86\Debug\SharpDX.Direct3D11.xml
+C:\Users\dell\Desktop\Conestoga\Game Prog\Final Project\AVynohradova_GameMS1\AVynohradovaFinalProject\AVynohradovaFinalProject\bin\Windows\x86\Debug\SharpDX.Direct2D1.xml
+C:\Users\dell\Desktop\Conestoga\Game Prog\Final Project\AVynohradova_GameMS1\AVynohradovaFinalProject\AVynohradovaFinalProject\bin\Windows\x86\Debug\SharpDX.XInput.xml
+C:\Users\dell\Desktop\Conestoga\Game Prog\Final Project\AVynohradova_GameMS1\AVynohradovaFinalProject\AVynohradovaFinalProject\obj\x86\Debug\AVynohradovaFinalProject.csproj.CoreCompileInputs.cache
+C:\Users\dell\Desktop\Conestoga\Game Prog\Final Project\AVynohradova_GameMS1\AVynohradovaFinalProject\AVynohradovaFinalProject\obj\x86\Debug\AVynohradovaFinalProject.csproj.CopyComplete
+C:\Users\dell\Desktop\Conestoga\Game Prog\Final Project\AVynohradova_GameMS1\AVynohradovaFinalProject\AVynohradovaFinalProject\obj\x86\Debug\AVynohradovaFinalProject.exe
+C:\Users\dell\Desktop\Conestoga\Game Prog\Final Project\AVynohradova_GameMS1\AVynohradovaFinalProject\AVynohradovaFinalProject\obj\x86\Debug\AVynohradovaFinalProject.pdb
+C:\Users\dell\Desktop\Conestoga\Game Prog\Final Project\AVynohradova_GameMS1\AVynohradovaFinalProject\AVynohradovaFinalProject\obj\x86\Debug\AVynohradovaFinalProject.csprojAssemblyReference.cache
+C:\Users\dell\Desktop\Conestoga\Game Prog\Final Project\AVynohradova_GameMS1\AVynohradovaFinalProject\AVynohradovaFinalProject\bin\Windows\x86\Debug\Content\boat.xnb
+C:\Users\dell\Desktop\Conestoga\Game Prog\Final Project\AVynohradova_GameMS1\AVynohradovaFinalProject\AVynohradovaFinalProject\bin\Windows\x86\Debug\Content\song.wma
+C:\Users\dell\Desktop\Conestoga\Game Prog\Final Project\AVynohradova_GameMS1\AVynohradovaFinalProject\AVynohradovaFinalProject\bin\Windows\x86\Debug\Content\song.xnb
+C:\Users\dell\Desktop\Conestoga\Game Prog\Final Project\AVynohradova_GameMS1\AVynohradovaFinalProject\AVynohradovaFinalProject\bin\Windows\x86\Debug\Content\main.xnb
+C:\Users\dell\Desktop\Conestoga\Game Prog\Final Project\AVynohradova_GameMS1\AVynohradovaFinalProject\AVynohradovaFinalProject\bin\Windows\x86\Debug\Content\highlightFont.xnb
+C:\Users\dell\Desktop\Conestoga\Game Prog\Final Project\AVynohradova_GameMS1\AVynohradovaFinalProject\AVynohradovaFinalProject\bin\Windows\x86\Debug\Content\regularFont.xnb
+C:\Users\dell\Desktop\Conestoga\Game Prog\Final Project\AVynohradova_GameMS2\AVynohradovaFinalProject\AVynohradovaFinalProject\bin\Windows\x86\Debug\Content\background.xnb
+C:\Users\dell\Desktop\Conestoga\Game Prog\Final Project\AVynohradova_GameMS2\AVynohradovaFinalProject\AVynohradovaFinalProject\bin\Windows\x86\Debug\Content\boat.xnb
+C:\Users\dell\Desktop\Conestoga\Game Prog\Final Project\AVynohradova_GameMS2\AVynohradovaFinalProject\AVynohradovaFinalProject\bin\Windows\x86\Debug\Content\highlightFont.xnb
+C:\Users\dell\Desktop\Conestoga\Game Prog\Final Project\AVynohradova_GameMS2\AVynohradovaFinalProject\AVynohradovaFinalProject\bin\Windows\x86\Debug\Content\main.xnb
+C:\Users\dell\Desktop\Conestoga\Game Prog\Final Project\AVynohradova_GameMS2\AVynohradovaFinalProject\AVynohradovaFinalProject\bin\Windows\x86\Debug\Content\regularFont.xnb
+C:\Users\dell\Desktop\Conestoga\Game Prog\Final Project\AVynohradova_GameMS2\AVynohradovaFinalProject\AVynohradovaFinalProject\bin\Windows\x86\Debug\Content\song.wma
+C:\Users\dell\Desktop\Conestoga\Game Prog\Final Project\AVynohradova_GameMS2\AVynohradovaFinalProject\AVynohradovaFinalProject\bin\Windows\x86\Debug\Content\song.xnb
+C:\Users\dell\Desktop\Conestoga\Game Prog\Final Project\AVynohradova_GameMS2\AVynohradovaFinalProject\AVynohradovaFinalProject\bin\Windows\x86\Debug\AVynohradovaFinalProject.exe
+C:\Users\dell\Desktop\Conestoga\Game Prog\Final Project\AVynohradova_GameMS2\AVynohradovaFinalProject\AVynohradovaFinalProject\bin\Windows\x86\Debug\AVynohradovaFinalProject.pdb
+C:\Users\dell\Desktop\Conestoga\Game Prog\Final Project\AVynohradova_GameMS2\AVynohradovaFinalProject\AVynohradovaFinalProject\bin\Windows\x86\Debug\MonoGame.Framework.dll
+C:\Users\dell\Desktop\Conestoga\Game Prog\Final Project\AVynohradova_GameMS2\AVynohradovaFinalProject\AVynohradovaFinalProject\bin\Windows\x86\Debug\SharpDX.MediaFoundation.dll
+C:\Users\dell\Desktop\Conestoga\Game Prog\Final Project\AVynohradova_GameMS2\AVynohradovaFinalProject\AVynohradovaFinalProject\bin\Windows\x86\Debug\SharpDX.dll
+C:\Users\dell\Desktop\Conestoga\Game Prog\Final Project\AVynohradova_GameMS2\AVynohradovaFinalProject\AVynohradovaFinalProject\bin\Windows\x86\Debug\SharpDX.XAudio2.dll
+C:\Users\dell\Desktop\Conestoga\Game Prog\Final Project\AVynohradova_GameMS2\AVynohradovaFinalProject\AVynohradovaFinalProject\bin\Windows\x86\Debug\SharpDX.DXGI.dll
+C:\Users\dell\Desktop\Conestoga\Game Prog\Final Project\AVynohradova_GameMS2\AVynohradovaFinalProject\AVynohradovaFinalProject\bin\Windows\x86\Debug\SharpDX.Direct3D11.dll
+C:\Users\dell\Desktop\Conestoga\Game Prog\Final Project\AVynohradova_GameMS2\AVynohradovaFinalProject\AVynohradovaFinalProject\bin\Windows\x86\Debug\SharpDX.Direct2D1.dll
+C:\Users\dell\Desktop\Conestoga\Game Prog\Final Project\AVynohradova_GameMS2\AVynohradovaFinalProject\AVynohradovaFinalProject\bin\Windows\x86\Debug\SharpDX.XInput.dll
+C:\Users\dell\Desktop\Conestoga\Game Prog\Final Project\AVynohradova_GameMS2\AVynohradovaFinalProject\AVynohradovaFinalProject\bin\Windows\x86\Debug\MonoGame.Framework.xml
+C:\Users\dell\Desktop\Conestoga\Game Prog\Final Project\AVynohradova_GameMS2\AVynohradovaFinalProject\AVynohradovaFinalProject\bin\Windows\x86\Debug\SharpDX.MediaFoundation.xml
+C:\Users\dell\Desktop\Conestoga\Game Prog\Final Project\AVynohradova_GameMS2\AVynohradovaFinalProject\AVynohradovaFinalProject\bin\Windows\x86\Debug\SharpDX.xml
+C:\Users\dell\Desktop\Conestoga\Game Prog\Final Project\AVynohradova_GameMS2\AVynohradovaFinalProject\AVynohradovaFinalProject\bin\Windows\x86\Debug\SharpDX.XAudio2.xml
+C:\Users\dell\Desktop\Conestoga\Game Prog\Final Project\AVynohradova_GameMS2\AVynohradovaFinalProject\AVynohradovaFinalProject\bin\Windows\x86\Debug\SharpDX.DXGI.xml
+C:\Users\dell\Desktop\Conestoga\Game Prog\Final Project\AVynohradova_GameMS2\AVynohradovaFinalProject\AVynohradovaFinalProject\bin\Windows\x86\Debug\SharpDX.Direct3D11.xml
+C:\Users\dell\Desktop\Conestoga\Game Prog\Final Project\AVynohradova_GameMS2\AVynohradovaFinalProject\AVynohradovaFinalProject\bin\Windows\x86\Debug\SharpDX.Direct2D1.xml
+C:\Users\dell\Desktop\Conestoga\Game Prog\Final Project\AVynohradova_GameMS2\AVynohradovaFinalProject\AVynohradovaFinalProject\bin\Windows\x86\Debug\SharpDX.XInput.xml
+C:\Users\dell\Desktop\Conestoga\Game Prog\Final Project\AVynohradova_GameMS2\AVynohradovaFinalProject\AVynohradovaFinalProject\obj\x86\Debug\AVynohradovaFinalProject.csprojAssemblyReference.cache
+C:\Users\dell\Desktop\Conestoga\Game Prog\Final Project\AVynohradova_GameMS2\AVynohradovaFinalProject\AVynohradovaFinalProject\obj\x86\Debug\AVynohradovaFinalProject.csproj.CoreCompileInputs.cache
+C:\Users\dell\Desktop\Conestoga\Game Prog\Final Project\AVynohradova_GameMS2\AVynohradovaFinalProject\AVynohradovaFinalProject\obj\x86\Debug\AVynohradovaFinalProject.csproj.CopyComplete
+C:\Users\dell\Desktop\Conestoga\Game Prog\Final Project\AVynohradova_GameMS2\AVynohradovaFinalProject\AVynohradovaFinalProject\obj\x86\Debug\AVynohradovaFinalProject.exe
+C:\Users\dell\Desktop\Conestoga\Game Prog\Final Project\AVynohradova_GameMS2\AVynohradovaFinalProject\AVynohradovaFinalProject\obj\x86\Debug\AVynohradovaFinalProject.pdb
+C:\Users\dell\Desktop\Conestoga\Game Prog\Final Project\AVynohradova_GameMS2\AVynohradovaFinalProject\AVynohradovaFinalProject\bin\Windows\x86\Debug\Content\help.xnb
+C:\Users\dell\Desktop\Conestoga\Game Prog\Final Project\AVynohradova_GameMS2\AVynohradovaFinalProject\AVynohradovaFinalProject\bin\Windows\x86\Debug\Content\light.xnb
+C:\Users\dell\Desktop\Conestoga\Game Prog\Final Project\AVynohradova_GameMS2\AVynohradovaFinalProject\AVynohradovaFinalProject\bin\Windows\x86\Debug\Content\light2.xnb
+C:\Users\dell\Desktop\Conestoga\Game Prog\Final Project\AVynohradova_GameMS2\AVynohradovaFinalProject\AVynohradovaFinalProject\bin\Windows\x86\Debug\Content\textura.xnb
+C:\Users\dell\Desktop\Conestoga\Game Prog\Final Project\AVynohradova_GameMS2\AVynohradovaFinalProject\AVynohradovaFinalProject\bin\Windows\x86\Debug\Content\creditFont.xnb
+C:\Users\dell\Desktop\Conestoga\Game Prog\Final Project\AVynohradova_GameMS2\AVynohradovaFinalProject\AVynohradovaFinalProject\bin\Windows\x86\Debug\Content\credit.xnb
+C:\Users\dell\Desktop\Conestoga\Game Prog\Final Project\AVynohradova_Game\AVynohradovaFinalProject\AVynohradovaFinalProject\bin\Windows\x86\Debug\Content\background.xnb
+C:\Users\dell\Desktop\Conestoga\Game Prog\Final Project\AVynohradova_Game\AVynohradovaFinalProject\AVynohradovaFinalProject\bin\Windows\x86\Debug\Content\boat.xnb
+C:\Users\dell\Desktop\Conestoga\Game Prog\Final Project\AVynohradova_Game\AVynohradovaFinalProject\AVynohradovaFinalProject\bin\Windows\x86\Debug\Content\credit.xnb
+C:\Users\dell\Desktop\Conestoga\Game Prog\Final Project\AVynohradova_Game\AVynohradovaFinalProject\AVynohradovaFinalProject\bin\Windows\x86\Debug\Content\creditFont.xnb
+C:\Users\dell\Desktop\Conestoga\Game Prog\Final Project\AVynohradova_Game\AVynohradovaFinalProject\AVynohradovaFinalProject\bin\Windows\x86\Debug\Content\help.xnb
+C:\Users\dell\Desktop\Conestoga\Game Prog\Final Project\AVynohradova_Game\AVynohradovaFinalProject\AVynohradovaFinalProject\bin\Windows\x86\Debug\Content\highlightFont.xnb
+C:\Users\dell\Desktop\Conestoga\Game Prog\Final Project\AVynohradova_Game\AVynohradovaFinalProject\AVynohradovaFinalProject\bin\Windows\x86\Debug\Content\light.xnb
+C:\Users\dell\Desktop\Conestoga\Game Prog\Final Project\AVynohradova_Game\AVynohradovaFinalProject\AVynohradovaFinalProject\bin\Windows\x86\Debug\Content\light2.xnb
+C:\Users\dell\Desktop\Conestoga\Game Prog\Final Project\AVynohradova_Game\AVynohradovaFinalProject\AVynohradovaFinalProject\bin\Windows\x86\Debug\Content\main.xnb
+C:\Users\dell\Desktop\Conestoga\Game Prog\Final Project\AVynohradova_Game\AVynohradovaFinalProject\AVynohradovaFinalProject\bin\Windows\x86\Debug\Content\regularFont.xnb
+C:\Users\dell\Desktop\Conestoga\Game Prog\Final Project\AVynohradova_Game\AVynohradovaFinalProject\AVynohradovaFinalProject\bin\Windows\x86\Debug\Content\song.wma
+C:\Users\dell\Desktop\Conestoga\Game Prog\Final Project\AVynohradova_Game\AVynohradovaFinalProject\AVynohradovaFinalProject\bin\Windows\x86\Debug\Content\song.xnb
+C:\Users\dell\Desktop\Conestoga\Game Prog\Final Project\AVynohradova_Game\AVynohradovaFinalProject\AVynohradovaFinalProject\bin\Windows\x86\Debug\Content\textura.xnb
+C:\Users\dell\Desktop\Conestoga\Game Prog\Final Project\AVynohradova_Game\AVynohradovaFinalProject\AVynohradovaFinalProject\bin\Windows\x86\Debug\AVynohradovaFinalProject.exe
+C:\Users\dell\Desktop\Conestoga\Game Prog\Final Project\AVynohradova_Game\AVynohradovaFinalProject\AVynohradovaFinalProject\bin\Windows\x86\Debug\AVynohradovaFinalProject.pdb
+C:\Users\dell\Desktop\Conestoga\Game Prog\Final Project\AVynohradova_Game\AVynohradovaFinalProject\AVynohradovaFinalProject\bin\Windows\x86\Debug\MonoGame.Framework.dll
+C:\Users\dell\Desktop\Conestoga\Game Prog\Final Project\AVynohradova_Game\AVynohradovaFinalProject\AVynohradovaFinalProject\bin\Windows\x86\Debug\SharpDX.MediaFoundation.dll
+C:\Users\dell\Desktop\Conestoga\Game Prog\Final Project\AVynohradova_Game\AVynohradovaFinalProject\AVynohradovaFinalProject\bin\Windows\x86\Debug\SharpDX.dll
+C:\Users\dell\Desktop\Conestoga\Game Prog\Final Project\AVynohradova_Game\AVynohradovaFinalProject\AVynohradovaFinalProject\bin\Windows\x86\Debug\SharpDX.XAudio2.dll
+C:\Users\dell\Desktop\Conestoga\Game Prog\Final Project\AVynohradova_Game\AVynohradovaFinalProject\AVynohradovaFinalProject\bin\Windows\x86\Debug\SharpDX.DXGI.dll
+C:\Users\dell\Desktop\Conestoga\Game Prog\Final Project\AVynohradova_Game\AVynohradovaFinalProject\AVynohradovaFinalProject\bin\Windows\x86\Debug\SharpDX.Direct3D11.dll
+C:\Users\dell\Desktop\Conestoga\Game Prog\Final Project\AVynohradova_Game\AVynohradovaFinalProject\AVynohradovaFinalProject\bin\Windows\x86\Debug\SharpDX.Direct2D1.dll
+C:\Users\dell\Desktop\Conestoga\Game Prog\Final Project\AVynohradova_Game\AVynohradovaFinalProject\AVynohradovaFinalProject\bin\Windows\x86\Debug\SharpDX.XInput.dll
+C:\Users\dell\Desktop\Conestoga\Game Prog\Final Project\AVynohradova_Game\AVynohradovaFinalProject\AVynohradovaFinalProject\bin\Windows\x86\Debug\MonoGame.Framework.xml
+C:\Users\dell\Desktop\Conestoga\Game Prog\Final Project\AVynohradova_Game\AVynohradovaFinalProject\AVynohradovaFinalProject\bin\Windows\x86\Debug\SharpDX.MediaFoundation.xml
+C:\Users\dell\Desktop\Conestoga\Game Prog\Final Project\AVynohradova_Game\AVynohradovaFinalProject\AVynohradovaFinalProject\bin\Windows\x86\Debug\SharpDX.xml
+C:\Users\dell\Desktop\Conestoga\Game Prog\Final Project\AVynohradova_Game\AVynohradovaFinalProject\AVynohradovaFinalProject\bin\Windows\x86\Debug\SharpDX.XAudio2.xml
+C:\Users\dell\Desktop\Conestoga\Game Prog\Final Project\AVynohradova_Game\AVynohradovaFinalProject\AVynohradovaFinalProject\bin\Windows\x86\Debug\SharpDX.DXGI.xml
+C:\Users\dell\Desktop\Conestoga\Game Prog\Final Project\AVynohradova_Game\AVynohradovaFinalProject\AVynohradovaFinalProject\bin\Windows\x86\Debug\SharpDX.Direct3D11.xml
+C:\Users\dell\Desktop\Conestoga\Game Prog\Final Project\AVynohradova_Game\AVynohradovaFinalProject\AVynohradovaFinalProject\bin\Windows\x86\Debug\SharpDX.Direct2D1.xml
+C:\Users\dell\Desktop\Conestoga\Game Prog\Final Project\AVynohradova_Game\AVynohradovaFinalProject\AVynohradovaFinalProject\bin\Windows\x86\Debug\SharpDX.XInput.xml
+C:\Users\dell\Desktop\Conestoga\Game Prog\Final Project\AVynohradova_Game\AVynohradovaFinalProject\AVynohradovaFinalProject\obj\x86\Debug\AVynohradovaFinalProject.csprojAssemblyReference.cache
+C:\Users\dell\Desktop\Conestoga\Game Prog\Final Project\AVynohradova_Game\AVynohradovaFinalProject\AVynohradovaFinalProject\obj\x86\Debug\AVynohradovaFinalProject.csproj.CoreCompileInputs.cache
+C:\Users\dell\Desktop\Conestoga\Game Prog\Final Project\AVynohradova_Game\AVynohradovaFinalProject\AVynohradovaFinalProject\obj\x86\Debug\AVynohradovaFinalProject.csproj.CopyComplete
+C:\Users\dell\Desktop\Conestoga\Game Prog\Final Project\AVynohradova_Game\AVynohradovaFinalProject\AVynohradovaFinalProject\obj\x86\Debug\AVynohradovaFinalProject.exe
+C:\Users\dell\Desktop\Conestoga\Game Prog\Final Project\AVynohradova_Game\AVynohradovaFinalProject\AVynohradovaFinalProject\obj\x86\Debug\AVynohradovaFinalProject.pdb
+C:\Users\dell\Desktop\Conestoga\Game Prog\Final Project\AVynohradova_Game\AVynohradovaFinalProject\AVynohradovaFinalProject\bin\Windows\x86\Debug\Content\pattern.xnb
