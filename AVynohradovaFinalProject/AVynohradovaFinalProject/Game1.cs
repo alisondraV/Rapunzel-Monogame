@@ -32,6 +32,8 @@ namespace AVynohradovaFinalProject
         /// </summary>
         protected override void Initialize()
         {
+            this.Components.Add(new PlaySong(this));
+
             Menu menu = new Menu(this);
             this.Components.Add(menu);
             Services.AddService<Menu>(menu);

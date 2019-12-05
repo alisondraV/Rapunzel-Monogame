@@ -47,12 +47,12 @@ namespace AVynohradovaFinalProject
 
             sb.DrawString(fontHeader,
                 header,
-                new Vector2(70, Game.GraphicsDevice.Viewport.Height / 8),
+                new Vector2(200, Game.GraphicsDevice.Viewport.Height / 8),
                 Color.Black);
 
             sb.DrawString(fontMain,
                 text,
-                new Vector2(70, Game.GraphicsDevice.Viewport.Height / 4),
+                new Vector2(400, Game.GraphicsDevice.Viewport.Height / 4),
                 Color.Maroon);
 
             sb.End();

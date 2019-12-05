@@ -66,6 +66,8 @@ namespace AVynohradovaFinalProject
             switch ((MenuItems)SelectedIndex)
             {
                 case MenuItems.Start:
+                    PlayScene.gameDone = false;
+                    Boat.reset = true;
                     Game.Services.GetService<PlayScene>().Show();
                     break;
                 case MenuItems.Help:

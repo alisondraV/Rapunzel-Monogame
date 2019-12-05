@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -17,13 +18,11 @@ namespace AVynohradovaFinalProject
         private string score;
         Vector2 positionHeader;
         Vector2 positionScore;
+        
+        string fileName = "highScores.txt";
 
         public UserScore(Game game, int points) : base(game)
         {
-            //if (Game.Services.GetService<UserScore>() == null)
-            //{
-            //    Game.Services.AddService<UserScore>(this);
-            //}
             this.points = points;
         }
 
@@ -41,6 +40,43 @@ namespace AVynohradovaFinalProject
 
         public override void Initialize()
         {
+            List<int> records = new List<int>();
+            string line;
+            if (File.Exists(fileName))
+            {
+                using (StreamReader reader = new StreamReader(fileName))
+                {
+                    while ((line = reader.ReadLine()) != null)
+                    {
+                        records.Add(int.Parse(line));
+                    }
+                }
+                records.Add(points);
+                records.Sort();
+                records.Reverse();
+                if (records.Count == 10)
+                {
+                    records.RemoveAt(9);
+                }
+
+                using (StreamWriter writer = new StreamWriter(fileName, false))
+                {
+                    foreach (int record in records)
+                    {
+                        writer.WriteLine(record);
+                    }
+                }
+            }
+            else
+            {
+                using (StreamWriter writer = new StreamWriter(fileName, false))
+                {
+                    foreach (int record in records)
+                    {
+                        writer.WriteLine(record);
+                    }
+                }
+            }
             base.Initialize();
         }
 

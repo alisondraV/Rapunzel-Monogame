@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Audio;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 
@@ -13,6 +14,8 @@ namespace AVynohradovaFinalProject
     {
         private Texture2D light;
         private Texture2D light2;
+        
+        SoundEffect soundEffect;
 
         private Vector2 position = Vector2.Zero;
 
@@ -85,6 +88,7 @@ namespace AVynohradovaFinalProject
 
         protected override void LoadContent()
         {
+            soundEffect = Game.Content.Load<SoundEffect>("s1");
             light = Game.Content.Load<Texture2D>("light");
             light2 = Game.Content.Load<Texture2D>("light2");
             base.LoadContent();
@@ -120,6 +124,7 @@ namespace AVynohradovaFinalProject
 
         public void HandleCollision()
         {
+            soundEffect.Play();
             Game.Components.Remove(this);
         }
     }

@@ -9,11 +9,14 @@ using Microsoft.Xna.Framework.Input;
 
 namespace AVynohradovaFinalProject
 {
-    
-
     public class PlayScene : GameScene
     {
-        
+        public static int points;
+
+        const int GAME_TIME = 30;
+        double timer = 0.0;
+        public static bool gameDone = false;
+        public static bool reset = false;
 
         public PlayScene(Game game) : base(game)
         {
@@ -23,7 +26,6 @@ namespace AVynohradovaFinalProject
         {
             this.GameComponents.Add(new PlayBackground(Game));
             this.GameComponents.Add(new Boat(Game));
-            this.GameComponents.Add(new PlaySong(Game));
             this.GameComponents.Add(new LightManager(Game));
             
             base.Initialize();
@@ -38,25 +40,40 @@ namespace AVynohradovaFinalProject
         {
             if (Enabled)
             {
+                timer += gameTime.ElapsedGameTime.TotalSeconds;
+
+                if (timer >= GAME_TIME)
+                {
+                    Game.Components.Add(new EndGameScene(Game, points));
+                    ClearBoard();
+                }
+
                 if (Keyboard.GetState().IsKeyDown(Keys.Escape))
                 {
-                    int componentsN = Game.Components.Count;
-                    for (int i = 0; i < componentsN; i++)
-                    {
-                        if (Game.Components.ElementAt(i) is Light ||
-                            Game.Components.ElementAt(i) is UserScore)
-                        {
-                            Game.Components.Remove(Game.Components.ElementAt(i));
-                            componentsN--;
-                            i--;
-                        }
-                    }
-                    LightManager.gameDone = false;
+                    ClearBoard();
+
                     ((Game1)Game).HideAllScenes();
                     Game.Services.GetService<Menu>().Show();
                 }
             }
             base.Update(gameTime);
+        }
+
+        private void ClearBoard()
+        {
+            timer = 0;
+            gameDone = true;
+
+            int componentsN = Game.Components.Count;
+            for (int i = 0; i < componentsN; i++)
+            {
+                if (Game.Components.ElementAt(i) is Light)
+                {
+                    Game.Components.Remove(Game.Components.ElementAt(i));
+                    componentsN--;
+                    i--;
+                }
+            }
         }
     }
 }

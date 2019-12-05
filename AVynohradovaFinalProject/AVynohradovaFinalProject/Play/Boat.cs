@@ -14,6 +14,7 @@ namespace AVynohradovaFinalProject
     {
         private Texture2D boat;
         private Vector2 boatLocation;
+        public static bool reset = false;
 
         public Rectangle Bounds
         {
@@ -53,6 +54,13 @@ namespace AVynohradovaFinalProject
 
         public override void Update(GameTime gameTime)
         {
+            if (reset)
+            {
+                boatLocation = new Vector2((GraphicsDevice.Viewport.Width - boat.Width) / 2,
+                        GraphicsDevice.Viewport.Height - boat.Height);
+                reset = false;
+            }
+
             KeyboardState ks = Keyboard.GetState();
 
             if (ks.IsKeyDown(Keys.Left))

@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Audio;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 
@@ -15,18 +16,13 @@ namespace AVynohradovaFinalProject
         Random rand = new Random();
         const double CREATION_INTERVAL = 1;
         double creationTimer = 0.0;
+        SoundEffect soundEffect;
 
         const int Y_OFFSET = -150;
         const int X_LIMIT = 100;
 
         public List<Light> lights = new List<Light>();
         public Boat boat;
-
-        public int points;
-        const int GAME_TIME = 30;
-        double timer = 0.0;
-        string fileName = "highScores.txt";
-        public static bool gameDone = false;
 
         public LightManager(Game game) : base(game)
         {
@@ -46,45 +42,13 @@ namespace AVynohradovaFinalProject
 
         public override void Update(GameTime gameTime)
         {
-            timer += gameTime.ElapsedGameTime.TotalSeconds;
-
-            if (timer >= GAME_TIME)
-            {
-                Game.Components.Add(new UserScore(Game, points));
-                WritingToFile();
-                timer = 0.0;
-                gameDone = true;
-            }
-            else if(gameDone == false)
+            if (PlayScene.gameDone == false)
             {
                 CreateLight(gameTime);
                 CheckCollision();
             }
             
             base.Update(gameTime);
-        }
-
-        private void WritingToFile()
-        {
-            List<int> records = new List<int>();
-            string line;
-            using(StreamReader reader = new StreamReader(fileName))
-            {
-                while ((line = reader.ReadLine()) != null)
-                {
-                    records.Add(int.Parse(line));
-                }
-            }
-            records.Add(points);
-            records.Sort();
-            records.Reverse();
-            using (StreamWriter writer = new StreamWriter(fileName, false))
-            {
-                foreach(int record in records)
-                {
-                    writer.WriteLine(record);
-                }
-            }
         }
 
         private void CheckCollision()
@@ -99,7 +63,7 @@ namespace AVynohradovaFinalProject
                     lights[i].HandleCollision();
                     lights.Remove(lights[i]);
                     i--;
-                    points++;
+                    PlayScene.points++;
                 }
             }
         }
