@@ -129,3 +129,4 @@ C:\Users\dell\Desktop\Conestoga\Game Prog\Final Project\AVynohradova_Game\AVynoh
 C:\Users\dell\Desktop\Conestoga\Game Prog\Final Project\AVynohradova_Game\AVynohradovaFinalProject\AVynohradovaFinalProject\obj\x86\Debug\AVynohradovaFinalProject.pdb
 C:\Users\dell\Desktop\Conestoga\Game Prog\Final Project\AVynohradova_Game\AVynohradovaFinalProject\AVynohradovaFinalProject\bin\Windows\x86\Debug\Content\pattern.xnb
 C:\Users\dell\Desktop\Conestoga\Game Prog\Final Project\AVynohradova_Game\AVynohradovaFinalProject\AVynohradovaFinalProject\bin\Windows\x86\Debug\Content\s1.xnb
+C:\Users\dell\Desktop\Conestoga\Game Prog\Final Project\AVynohradova_Game\AVynohradovaFinalProject\AVynohradovaFinalProject\bin\Windows\x86\Debug\Content\highscore.xnb

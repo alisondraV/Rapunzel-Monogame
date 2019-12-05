@@ -26,6 +26,8 @@ namespace AVynohradovaFinalProject
 
         bool flip = false;
 
+        Vector2 position2;
+
         Random random = new Random();
         Color color;
 
@@ -71,10 +73,15 @@ namespace AVynohradovaFinalProject
                     flip = !flip;
                 }
             }
-            position.Y += 1;
+            position.Y += 2;
 
-            if (position.Y > Game.GraphicsDevice.Viewport.Height + light.Height + 10)
+            position2 = new Vector2(position.X - (light2.Width - light.Width) / 2,
+                                    position.Y - (light2.Height - light.Height) / 2);
+
+            if (position.Y >= Game.GraphicsDevice.Viewport.Height + light.Height + 5)
             {
+                PlayScene.points -= 5;
+                LightManager.lights.Remove(this);
                 Game.Components.Remove(this);
             }
 
@@ -109,7 +116,7 @@ namespace AVynohradovaFinalProject
                 flip ? SpriteEffects.FlipHorizontally : SpriteEffects.None,
                 0f);
             sb.Draw(light2,
-                position,
+                position2,
                 null,
                 color,
                 0f,

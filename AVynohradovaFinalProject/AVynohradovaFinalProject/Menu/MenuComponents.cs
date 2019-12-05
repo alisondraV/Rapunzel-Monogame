@@ -74,6 +74,7 @@ namespace AVynohradovaFinalProject
                     Game.Services.GetService<HelpScene>().Show();
                     break;
                 case MenuItems.HighScore:
+                    HighScoreDraw.UpdateScores();
                     Game.Services.GetService<HighScoreScene>().Show();
                     break;
                 case MenuItems.Credit:

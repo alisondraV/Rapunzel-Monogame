@@ -75,6 +75,18 @@
 /processorParam:TextureFormat=Compressed
 /build:highlightFont.spritefont
 
+#begin highscore.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:highscore.png
+
 #begin light.png
 /importer:TextureImporter
 /processor:TextureProcessor
@@ -110,18 +122,6 @@
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:main.jpg
-
-#begin pattern.png
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:pattern.png
 
 #begin regularFont.spritefont
 /importer:FontDescriptionImporter

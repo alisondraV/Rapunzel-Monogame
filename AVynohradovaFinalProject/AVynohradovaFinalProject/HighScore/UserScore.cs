@@ -54,9 +54,9 @@ namespace AVynohradovaFinalProject
                 records.Add(points);
                 records.Sort();
                 records.Reverse();
-                if (records.Count == 10)
+                if (records.Count == 11)
                 {
-                    records.RemoveAt(9);
+                    records.RemoveAt(10);
                 }
 
                 using (StreamWriter writer = new StreamWriter(fileName, false))
@@ -71,6 +71,7 @@ namespace AVynohradovaFinalProject
             {
                 using (StreamWriter writer = new StreamWriter(fileName, false))
                 {
+                    records.Add(points);
                     foreach (int record in records)
                     {
                         writer.WriteLine(record);

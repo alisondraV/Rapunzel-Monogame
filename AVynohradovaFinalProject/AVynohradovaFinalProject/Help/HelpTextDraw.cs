@@ -18,6 +18,9 @@ namespace AVynohradovaFinalProject
         private string header;
         private string text;
 
+        Vector2 headerPosition;
+        Vector2 textPosition;
+
         public HelpTextDraw(Game game) : base(game)
         {
         }
@@ -46,13 +49,13 @@ namespace AVynohradovaFinalProject
 
             sb.DrawString(fontHeader,
                 header,
-                new Vector2(70, Game.GraphicsDevice.Viewport.Height / 8),
-                Color.Black);
+                headerPosition,
+                Color.Maroon);
 
             sb.DrawString(fontMain,
                 text,
-                new Vector2(70, Game.GraphicsDevice.Viewport.Height / 4),
-                Color.Maroon);
+                textPosition,
+                Color.Purple);
 
             sb.End();
             base.Draw(gameTime);
@@ -61,10 +64,14 @@ namespace AVynohradovaFinalProject
         public override void Initialize()
         {
             header = "Rapunzel's Light Game";
-            text = "Hi! This game is all about launching\n and catching " +
-                "chinese lanterns.\n\n By pressing \"right\" or \"left\" buttons\n" +
-                " you can move the boat with Rapunzel and Flynn\n" +
-                " so they can catch the falling lanterns.";
+            text = "  Hi! This game is all about catching\n" +
+                "chinese lanterns.\n  By pressing \"right\" or \"left\" buttons\n" +
+                "you can move the boat with Rapunzel and Flynn\n" +
+                "so they can catch the falling lanterns.\n" +
+                "  By pressing \"Esc\" button you can return\nto the main menu, " +
+                "but keep in mind that\nif you return to the menu during the game\n" +
+                "you'll lose all the points and will have to start\nfrom scratch next time." +
+                "\n  You get 10 points for each caught lantern\nand loose 5 for each missed one";
             base.Initialize();
         }
 
@@ -79,6 +86,10 @@ namespace AVynohradovaFinalProject
             fontMain = Game.Content.Load<SpriteFont>("regularFont");
             fontHeader = Game.Content.Load<SpriteFont>("highlightFont");
             rapunzelTexture = Game.Content.Load<Texture2D>("textura");
+
+            headerPosition = new Vector2(65, 70);
+            textPosition = new Vector2(65, headerPosition.Y + fontHeader.MeasureString(header).Y + 10);
+
             base.LoadContent();
         }
     }

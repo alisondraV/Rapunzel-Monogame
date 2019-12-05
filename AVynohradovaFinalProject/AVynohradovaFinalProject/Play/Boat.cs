@@ -21,8 +21,11 @@ namespace AVynohradovaFinalProject
             get
             {
                 Rectangle rect = boat.Bounds;
+                rect.Width -= 100;
+                rect.Height = 2;
                 rect.Location = boatLocation.ToPoint();
-                rect.Y += (int)(rect.Height * 0.85);
+                rect.X += 60;
+                rect.Y += (int)(boat.Height * 0.7);
                 return rect;
             }
         }
@@ -65,11 +68,11 @@ namespace AVynohradovaFinalProject
 
             if (ks.IsKeyDown(Keys.Left))
             {
-                boatLocation.X -= 2;
+                boatLocation.X -= 3;
             }
             else if (ks.IsKeyDown(Keys.Right))
             {
-                boatLocation.X += 2;
+                boatLocation.X += 3;
             }
 
             boatLocation.X = MathHelper.Clamp(boatLocation.X, 0, Game.GraphicsDevice.Viewport.Width - boat.Width);

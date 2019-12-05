@@ -16,8 +16,8 @@ namespace AVynohradovaFinalProject
         Texture2D rapunzel;
         SpriteFont fontMain;
         SpriteFont fontHeader;
-        private string header;
-        private string text;
+        private static string header;
+        private static string text;
 
         public HighScoreDraw(Game game) : base(game)
         {
@@ -42,18 +42,19 @@ namespace AVynohradovaFinalProject
             }
 
             sb.Draw(rapunzel,
-                new Vector2(Game.GraphicsDevice.Viewport.Width - rapunzel.Width, 0),
+                new Vector2(Game.GraphicsDevice.Viewport.Width - rapunzel.Width,
+                (Game.GraphicsDevice.Viewport.Height - rapunzel.Height) / 2),
                 Color.White);
 
             sb.DrawString(fontHeader,
                 header,
-                new Vector2(200, Game.GraphicsDevice.Viewport.Height / 8),
-                Color.Black);
+                new Vector2(150, Game.GraphicsDevice.Viewport.Height / 8),
+                Color.Maroon);
 
             sb.DrawString(fontMain,
                 text,
-                new Vector2(400, Game.GraphicsDevice.Viewport.Height / 4),
-                Color.Maroon);
+                new Vector2(250, Game.GraphicsDevice.Viewport.Height / 4),
+                Color.Purple);
 
             sb.End();
             base.Draw(gameTime);
@@ -61,8 +62,16 @@ namespace AVynohradovaFinalProject
 
         public override void Initialize()
         {
-            header = "High Scores";
+            UpdateScores();
+
+            base.Initialize();
+        }
+
+        public static void UpdateScores()
+        {
+            header = "Top 10 High Scores";
             string fileName = "highScores.txt";
+            text = "";
 
             if (File.Exists(fileName))
             {
@@ -75,10 +84,8 @@ namespace AVynohradovaFinalProject
             }
             else
             {
-                text = "Be the first one to set the high score!";
+                text = "Be the first one\nto set the high score!";
             }
-
-            base.Initialize();
         }
 
         public override void Update(GameTime gameTime)
@@ -88,7 +95,7 @@ namespace AVynohradovaFinalProject
 
         protected override void LoadContent()
         {
-            rapunzel = Game.Content.Load<Texture2D>("pattern");
+            rapunzel = Game.Content.Load<Texture2D>("highscore");
             fontMain = Game.Content.Load<SpriteFont>("regularFont");
             fontHeader = Game.Content.Load<SpriteFont>("highlightFont");
             rapunzelTexture = Game.Content.Load<Texture2D>("textura");

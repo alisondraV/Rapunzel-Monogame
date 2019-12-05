@@ -44,8 +44,9 @@ namespace AVynohradovaFinalProject
 
                 if (timer >= GAME_TIME)
                 {
-                    Game.Components.Add(new EndGameScene(Game, points));
                     ClearBoard();
+                    Game.Components.Add(new EndGameScene(Game, points));
+                    points = 0;
                 }
 
                 if (Keyboard.GetState().IsKeyDown(Keys.Escape))

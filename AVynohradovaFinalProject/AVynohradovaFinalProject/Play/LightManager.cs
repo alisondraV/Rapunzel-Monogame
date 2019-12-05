@@ -5,7 +5,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Microsoft.Xna.Framework;
-using Microsoft.Xna.Framework.Audio;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 
@@ -16,12 +15,11 @@ namespace AVynohradovaFinalProject
         Random rand = new Random();
         const double CREATION_INTERVAL = 1;
         double creationTimer = 0.0;
-        SoundEffect soundEffect;
 
         const int Y_OFFSET = -150;
         const int X_LIMIT = 100;
 
-        public List<Light> lights = new List<Light>();
+        public static List<Light> lights = new List<Light>();
         public Boat boat;
 
         public LightManager(Game game) : base(game)
@@ -47,6 +45,10 @@ namespace AVynohradovaFinalProject
                 CreateLight(gameTime);
                 CheckCollision();
             }
+            else
+            {
+                lights.Clear();
+            }
             
             base.Update(gameTime);
         }
@@ -63,7 +65,7 @@ namespace AVynohradovaFinalProject
                     lights[i].HandleCollision();
                     lights.Remove(lights[i]);
                     i--;
-                    PlayScene.points++;
+                    PlayScene.points += 10;
                 }
             }
         }

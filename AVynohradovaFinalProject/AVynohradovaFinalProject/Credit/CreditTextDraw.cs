@@ -85,7 +85,8 @@ namespace AVynohradovaFinalProject
                 "5.\"light.png\": https://weheartit.com/entry/18377266 \n" +
                 "6.\"textura.jpeg\": https://www.fabricgateway.com/topic/tangled+sun \n" +
                 "7.\"song.mp3\": https://www.youtube.com/watch?v=cJyJCz8uIFU \n" +
-                "8.\"credit.jpg\": http://www.rabstol.net/oboi/rapunzel/2180-rapuncel-flinn-i-maksimus.html";
+                "8.\"credit.jpg\": http://www.rabstol.net/oboi/rapunzel/2180-rapuncel-flinn-i-maksimus.html \n" +
+                "9.\"highscore.png\": https://estudiante812.files.wordpress.com/2016/02/tangled";
             base.Initialize();
         }
 
