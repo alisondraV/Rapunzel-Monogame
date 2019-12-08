@@ -9,6 +9,9 @@ using Microsoft.Xna.Framework.Input;
 
 namespace AVynohradovaFinalProject
 {
+    /// <summary>
+    /// The scene with the the rules and basic info about the game
+    /// </summary>
     class HelpScene : GameScene
     {
         public HelpScene(Game game) : base(game)

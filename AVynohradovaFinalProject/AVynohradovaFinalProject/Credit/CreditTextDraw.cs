@@ -9,6 +9,9 @@ using Microsoft.Xna.Framework.Input;
 
 namespace AVynohradovaFinalProject
 {
+    /// <summary>
+    /// The text which is drawn on the CreditScene
+    /// </summary>
     class CreditTextDraw : DrawableGameComponent
     {
         Texture2D rapunzelTexture;
@@ -85,16 +88,12 @@ namespace AVynohradovaFinalProject
                 "5.\"light.png\": https://weheartit.com/entry/18377266 \n" +
                 "6.\"textura.jpeg\": https://www.fabricgateway.com/topic/tangled+sun \n" +
                 "7.\"song.mp3\": https://www.youtube.com/watch?v=cJyJCz8uIFU \n" +
-                "8.\"credit.jpg\": http://www.rabstol.net/oboi/rapunzel/2180-rapuncel-flinn-i-maksimus.html \n" +
-                "9.\"highscore.png\": https://estudiante812.files.wordpress.com/2016/02/tangled";
+				"8.\"s1.mp3\": https://zvukipro.com/audio/918-zvuki-lucha-sveta.html \n" +
+                "9.\"credit.jpg\": http://www.rabstol.net/oboi/rapunzel/2180-rapuncel-flinn-i-maksimus.html \n" +
+                "10.\"highscore.png\": https://estudiante812.files.wordpress.com/2016/02/tangled";
             base.Initialize();
         }
-
-        public override void Update(GameTime gameTime)
-        {
-            base.Update(gameTime);
-        }
-
+        
         protected override void LoadContent()
         {
             creditFont = Game.Content.Load<SpriteFont>("creditFont");

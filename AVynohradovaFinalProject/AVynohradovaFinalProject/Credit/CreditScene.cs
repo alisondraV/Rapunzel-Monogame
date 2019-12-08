@@ -9,6 +9,9 @@ using Microsoft.Xna.Framework.Input;
 
 namespace AVynohradovaFinalProject
 {
+    /// <summary>
+    /// The scene with the resources and info about the developer
+    /// </summary>
     class CreditScene : GameScene
     {
         public CreditScene(Game game) : base(game)

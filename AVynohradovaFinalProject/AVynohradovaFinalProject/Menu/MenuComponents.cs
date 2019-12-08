@@ -9,6 +9,9 @@ using Microsoft.Xna.Framework.Input;
 
 namespace AVynohradovaFinalProject
 {
+    /// <summary>
+    /// The menu components are drawn on the Menu page
+    /// </summary>
     public class MenuComponents : DrawableGameComponent
     {
         SpriteFont regularFont;
@@ -59,6 +62,9 @@ namespace AVynohradovaFinalProject
             base.Update(gameTime);
         }
 
+        /// <summary>
+        /// Changes scene depending on the chosen index of the menu component
+        /// </summary>
         private void SwitchScenedBasedOnSelection()
         {
             ((Game1)Game).HideAllScenes();

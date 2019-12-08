@@ -9,15 +9,22 @@ using Microsoft.Xna.Framework.Input;
 
 namespace AVynohradovaFinalProject
 {
+    /// <summary>
+    /// Template for all the scenes in the game
+    /// </summary>
     public abstract class GameScene : GameComponent
     {
         protected List<GameComponent> GameComponents { get; set; }
+
         public GameScene(Game game) : base(game)
         {
             GameComponents = new List<GameComponent>();
             Hide();
         }
 
+        /// <summary>
+        /// Hides all of the Game Components in the scene
+        /// </summary>
         public virtual void Hide()
         {
             this.Enabled = false;
@@ -31,6 +38,9 @@ namespace AVynohradovaFinalProject
             }
         }
 
+        /// <summary>
+        /// Shows all of the Game Components in the scene
+        /// </summary>
         public virtual void Show()
         {
             this.Enabled = true;

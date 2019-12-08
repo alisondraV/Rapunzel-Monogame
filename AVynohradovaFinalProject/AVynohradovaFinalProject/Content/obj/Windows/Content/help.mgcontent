@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>C:/Users/dell/Desktop/Conestoga/Game Prog/Final Project/AVynohradova_Game/AVynohradovaFinalProject/AVynohradovaFinalProject/Content/help.png</SourceFile>
+  <SourceFile>C:/Users/dell/Desktop/Conestoga/Game Prog/Final Project/AVynohradovaFinalProject/AVynohradovaFinalProject/AVynohradovaFinalProject/Content/help.png</SourceFile>
   <SourceTime>2019-12-05T11:39:50.2543121-05:00</SourceTime>
-  <DestFile>C:/Users/dell/Desktop/Conestoga/Game Prog/Final Project/AVynohradova_Game/AVynohradovaFinalProject/AVynohradovaFinalProject/Content/bin/Windows/Content/help.xnb</DestFile>
-  <DestTime>2019-12-05T11:40:13.3867047-05:00</DestTime>
+  <DestFile>C:/Users/dell/Desktop/Conestoga/Game Prog/Final Project/AVynohradovaFinalProject/AVynohradovaFinalProject/AVynohradovaFinalProject/Content/bin/Windows/Content/help.xnb</DestFile>
+  <DestTime>2019-12-07T13:30:13.6895159-05:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2018-12-08T11:35:54-05:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

@@ -11,27 +11,15 @@ using Microsoft.Xna.Framework.Media;
 
 namespace AVynohradovaFinalProject
 {
+    /// <summary>
+    /// Song, which plays in the background throughout the game
+    /// </summary>
     class PlaySong : DrawableGameComponent
     {
         private Song song;
 
         public PlaySong(Game game) : base(game)
         {
-        }
-
-        public override void Draw(GameTime gameTime)
-        {
-            base.Draw(gameTime);
-        }
-
-        public override void Initialize()
-        {
-            base.Initialize();
-        }
-
-        public override void Update(GameTime gameTime)
-        {
-            base.Update(gameTime);
         }
 
         protected override void LoadContent()

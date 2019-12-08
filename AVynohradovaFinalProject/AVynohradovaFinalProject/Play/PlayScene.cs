@@ -9,6 +9,9 @@ using Microsoft.Xna.Framework.Input;
 
 namespace AVynohradovaFinalProject
 {
+    /// <summary>
+    /// The main scene, where the game occures
+    /// </summary>
     public class PlayScene : GameScene
     {
         public static int points;
@@ -31,11 +34,6 @@ namespace AVynohradovaFinalProject
             base.Initialize();
         }
 
-        public override void Show()
-        {
-            base.Show();
-        }
-        
         public override void Update(GameTime gameTime)
         {
             if (Enabled)
@@ -60,6 +58,9 @@ namespace AVynohradovaFinalProject
             base.Update(gameTime);
         }
 
+        /// <summary>
+        /// Clears the Game Components from the lights when the game is finished
+        /// </summary>
         private void ClearBoard()
         {
             timer = 0;

@@ -10,6 +10,9 @@ using Microsoft.Xna.Framework.Input;
 
 namespace AVynohradovaFinalProject
 {
+    /// <summary>
+    /// The text from the file, drawn on the HighScoreScene
+    /// </summary>
     class HighScoreDraw : DrawableGameComponent
     {
         Texture2D rapunzelTexture;
@@ -63,10 +66,12 @@ namespace AVynohradovaFinalProject
         public override void Initialize()
         {
             UpdateScores();
-
             base.Initialize();
         }
 
+        /// <summary>
+        /// Reads the text from the file if it exists or shows the message
+        /// </summary>
         public static void UpdateScores()
         {
             header = "Top 10 High Scores";
@@ -86,11 +91,6 @@ namespace AVynohradovaFinalProject
             {
                 text = "Be the first one\nto set the high score!";
             }
-        }
-
-        public override void Update(GameTime gameTime)
-        {
-            base.Update(gameTime);
         }
 
         protected override void LoadContent()

@@ -10,12 +10,18 @@ using Microsoft.Xna.Framework.Media;
 
 namespace AVynohradovaFinalProject
 {
+    /// <summary>
+    /// Drawn on the PlayScene
+    /// </summary>
     class Boat : DrawableGameComponent
     {
         private Texture2D boat;
         private Vector2 boatLocation;
         public static bool reset = false;
 
+        /// <summary>
+        /// Bounds of the boat, which are used so as to find out whether a light intersects with it
+        /// </summary>
         public Rectangle Bounds
         {
             get
@@ -57,6 +63,15 @@ namespace AVynohradovaFinalProject
 
         public override void Update(GameTime gameTime)
         {
+            if (PlayScene.gameDone == false)
+            {
+                DrawOrder = int.MaxValue;
+            }
+            else
+            {
+                this.Visible = false;
+            }
+
             if (reset)
             {
                 boatLocation = new Vector2((GraphicsDevice.Viewport.Width - boat.Width) / 2,

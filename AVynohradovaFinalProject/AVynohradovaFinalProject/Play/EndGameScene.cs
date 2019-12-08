@@ -9,6 +9,9 @@ using Microsoft.Xna.Framework.Input;
 
 namespace AVynohradovaFinalProject
 {
+    /// <summary>
+    /// Drawn when the game finishes, shows the user's score
+    /// </summary>
     class EndGameScene : GameScene
     {
         int score = 0;

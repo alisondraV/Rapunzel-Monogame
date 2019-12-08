@@ -9,6 +9,9 @@ using Microsoft.Xna.Framework.Input;
 
 namespace AVynohradovaFinalProject
 {
+    /// <summary>
+    /// The text which is drawn on the HelpScene
+    /// </summary>
     class HelpTextDraw : DrawableGameComponent
     {
         Texture2D rapunzelTexture;
@@ -71,13 +74,9 @@ namespace AVynohradovaFinalProject
                 "  By pressing \"Esc\" button you can return\nto the main menu, " +
                 "but keep in mind that\nif you return to the menu during the game\n" +
                 "you'll lose all the points and will have to start\nfrom scratch next time." +
-                "\n  You get 10 points for each caught lantern\nand loose 5 for each missed one";
+                "\n  You get 10 points for each caught lantern\nand loose 5 for each missed one." +
+                " You have\n30 seconds to catch as many lights as possible.";
             base.Initialize();
-        }
-
-        public override void Update(GameTime gameTime)
-        {
-            base.Update(gameTime);
         }
 
         protected override void LoadContent()

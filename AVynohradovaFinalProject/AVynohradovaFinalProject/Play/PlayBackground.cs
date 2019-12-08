@@ -9,6 +9,9 @@ using Microsoft.Xna.Framework.Input;
 
 namespace AVynohradovaFinalProject
 {
+    /// <summary>
+    /// Background of the game (on the PlayScene)
+    /// </summary>
     class PlayBackground : DrawableGameComponent
     {
         private Texture2D background;
@@ -34,12 +37,7 @@ namespace AVynohradovaFinalProject
             DrawOrder = 0;
             base.Initialize();
         }
-
-        public override void Update(GameTime gameTime)
-        {
-            base.Update(gameTime);
-        }
-
+        
         protected override void LoadContent()
         {
             background = Game.Content.Load<Texture2D>("background");

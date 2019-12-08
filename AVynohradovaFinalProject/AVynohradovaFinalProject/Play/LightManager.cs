@@ -10,6 +10,9 @@ using Microsoft.Xna.Framework.Input;
 
 namespace AVynohradovaFinalProject
 {
+    /// <summary>
+    /// Generates the lights during the game (on PlayScene)
+    /// </summary>
     class LightManager : GameComponent
     {
         Random rand = new Random();
@@ -32,6 +35,10 @@ namespace AVynohradovaFinalProject
             base.Initialize();
         }
 
+        /// <summary>
+        /// Creates a random position for each of the new lights
+        /// </summary>
+        /// <returns></returns>
         private Vector2 GenerateRandPosition()
         {
             int x = rand.Next(100, Game.GraphicsDevice.Viewport.Width - X_LIMIT);
@@ -53,6 +60,9 @@ namespace AVynohradovaFinalProject
             base.Update(gameTime);
         }
 
+        /// <summary>
+        /// Checks if any of the lights in the game (from the list) intersects with the boat
+        /// </summary>
         private void CheckCollision()
         {
             Rectangle boatBounds = boat.Bounds;
@@ -70,6 +80,10 @@ namespace AVynohradovaFinalProject
             }
         }
 
+        /// <summary>
+        /// Creates new light each second
+        /// </summary>
+        /// <param name="gameTime"></param>
         private void CreateLight(GameTime gameTime)
         {
             creationTimer += gameTime.ElapsedGameTime.TotalSeconds;

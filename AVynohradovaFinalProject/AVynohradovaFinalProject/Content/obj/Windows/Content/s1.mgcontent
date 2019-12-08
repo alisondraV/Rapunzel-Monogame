@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>C:/Users/dell/Desktop/Conestoga/Game Prog/Final Project/AVynohradova_Game/AVynohradovaFinalProject/AVynohradovaFinalProject/Content/s1.mp3</SourceFile>
+  <SourceFile>C:/Users/dell/Desktop/Conestoga/Game Prog/Final Project/AVynohradovaFinalProject/AVynohradovaFinalProject/AVynohradovaFinalProject/Content/s1.mp3</SourceFile>
   <SourceTime>2019-12-04T19:10:51.3859372-05:00</SourceTime>
-  <DestFile>C:/Users/dell/Desktop/Conestoga/Game Prog/Final Project/AVynohradova_Game/AVynohradovaFinalProject/AVynohradovaFinalProject/Content/bin/Windows/Content/s1.xnb</DestFile>
-  <DestTime>2019-12-04T19:25:08.7121646-05:00</DestTime>
+  <DestFile>C:/Users/dell/Desktop/Conestoga/Game Prog/Final Project/AVynohradovaFinalProject/AVynohradovaFinalProject/AVynohradovaFinalProject/Content/bin/Windows/Content/s1.xnb</DestFile>
+  <DestTime>2019-12-07T13:30:15.3771826-05:00</DestTime>
   <Importer>Mp3Importer</Importer>
   <ImporterTime>2018-12-08T11:35:54-05:00</ImporterTime>
   <Processor>SoundEffectProcessor</Processor>

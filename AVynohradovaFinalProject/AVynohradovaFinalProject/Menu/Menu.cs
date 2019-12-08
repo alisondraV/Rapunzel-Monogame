@@ -18,6 +18,9 @@ namespace AVynohradovaFinalProject
         Quit
     }
 
+    /// <summary>
+    /// The main scene, that shows the menu of the game
+    /// </summary>
     public class Menu : GameScene
     {
         List<string> menuItems = new List<string>(new string[]
@@ -36,11 +39,6 @@ namespace AVynohradovaFinalProject
             this.GameComponents.Add(new MenuComponents(Game, menuItems));
             this.Show();
             base.Initialize();
-        }
-
-        public override void Update(GameTime gameTime)
-        {
-            base.Update(gameTime);
         }
     }
 }

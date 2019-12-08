@@ -10,6 +10,9 @@ using Microsoft.Xna.Framework.Input;
 
 namespace AVynohradovaFinalProject
 {
+    /// <summary>
+    /// The user's score, which is drawn on the EndGameScene
+    /// </summary>
     class UserScore : DrawableGameComponent
     {
         int points;

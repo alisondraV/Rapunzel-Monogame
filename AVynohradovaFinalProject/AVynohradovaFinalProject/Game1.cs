@@ -17,7 +17,6 @@ namespace AVynohradovaFinalProject
 
         public Game1()
         {
-            this.IsMouseVisible = true;
             graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
             graphics.PreferredBackBufferWidth = 1600;

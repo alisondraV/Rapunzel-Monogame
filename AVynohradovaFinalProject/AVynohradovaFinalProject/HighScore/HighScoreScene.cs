@@ -9,6 +9,9 @@ using Microsoft.Xna.Framework.Input;
 
 namespace AVynohradovaFinalProject
 {
+    /// <summary>
+    /// The scene with the top 10 high scores in this game
+    /// </summary>
     class HighScoreScene : GameScene
     {
         public HighScoreScene(Game game) : base(game)

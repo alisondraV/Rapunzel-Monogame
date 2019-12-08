@@ -10,6 +10,9 @@ using Microsoft.Xna.Framework.Input;
 
 namespace AVynohradovaFinalProject
 {
+    /// <summary>
+    /// Chines lanterns which is drawn on the PlayScene
+    /// </summary>
     class Light : DrawableGameComponent
     {
         private Texture2D light;
@@ -31,6 +34,9 @@ namespace AVynohradovaFinalProject
         Random random = new Random();
         Color color;
 
+        /// <summary>
+        /// Bounds of the light, which are used so as to find out whether it intersects with the boat
+        /// </summary>
         public Rectangle Bounds
         {
             get
@@ -39,11 +45,6 @@ namespace AVynohradovaFinalProject
                 rect.Location = position.ToPoint();
                 return rect;
             }
-        }
-
-        public Light(Game game) : base(game)
-        {
-            
         }
 
         public Light(Game game, Vector2 initPosition) : base(game)
@@ -129,6 +130,9 @@ namespace AVynohradovaFinalProject
             base.Draw(gameTime);
         }
 
+        /// <summary>
+        /// Occures when the light intersects with the boat
+        /// </summary>
         public void HandleCollision()
         {
             soundEffect.Play();
